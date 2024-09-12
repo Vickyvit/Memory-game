@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn {
+    margin: 25px;
+    /* display: inline-block; */
+    height: 230px;
+    width: 230px;
+    border: 10px solid black;
+    border-radius: 20%;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.flash{
+    background-color: whitesmoke;
+}
+.userflash{
+    background-color: aquamarine;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
